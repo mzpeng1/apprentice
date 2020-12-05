@@ -1,0 +1,92 @@
+.joinForum {
+    background-color: black;
+    padding-bottom: 100px;
+    background-image: url("../images/joinForumsBackground.png");
+    background-size: contain;
+}
+
+.joinForum__text {
+    margin-top: 20px;
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.joinForum__boxes {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 800px;
+}
+
+.joinForum__boxes__left {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.joinForum__boxes__left > h3 {
+    margin-top: 10px;
+}
+
+.joinForum__boxes__left > h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    text-align: left;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+
+li {
+    border-style: solid;
+    border-color: black;
+    list-style-type: square;
+}
+
+.joinForum__boxes {
+    justify-content: space-around;
+}
+
+.joinForum__boxes__right {
+    display:flex;
+    flex-direction: column;
+}
+
+.joinForum__boxes__right__top {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.joinForum__boxes__right__bot{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.joinForum__boxes__find {
+    background-color: white;
+    padding: 15px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+}
+
+.joinForum__boxes__find > h3 {
+    margin-bottom: 10px;
+}
+
+.joinForum__boxes__what {
+    background-color: white;
+    margin-right: 20px;
+    padding: 15px;
+}

@@ -1,0 +1,104 @@
+.topics__banner {
+    display: flex;
+    height: 300px;
+    background-image: linear-gradient(60deg,  #f68f2f,#f68f2f, #f68f2f,#f743cc, #943bf2);
+} 
+
+.topics__banner__text {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.topics__banner__text > h1 {
+    font-size: 36pt;
+}
+
+.topics__banner > .topics__banner__img {
+    position: relative;
+    bottom: 0;
+    width: 0;
+    overflow: visible;
+    z-index: 10;
+}
+
+.topics__banner__img > img {
+    height: 200px;
+}
+
+.topics__banner__button {
+    margin-top: 5px;
+    position: relative;
+    left: 500px;
+    justify-self: right;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.breakBar {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+.topics__boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.topics__boxes__text {
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.topics__box {
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    width: 420px;
+}
+
+.topics__box > img {
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.topics__box__button {
+    background-color: white;
+    color: black;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 999px;
+}
+.topics__box__text {
+    color: white;
+}
+
+.academicsColor {
+    color: #F68F2F;
+}
+
+.financeColor {
+    color: #943bf2;
+}
+
+.healthColor {
+    color: #f743cc;
+}
+
+.livingColor {
+    color: white;
+}

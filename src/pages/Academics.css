@@ -1,0 +1,44 @@
+.academics {
+    justify-content: center;
+}
+
+.academics__banner {
+    background-color: #F68F2F;
+    height: 300px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 86pt;
+    justify-content: space-around;
+}
+
+.breakBar {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+.section__text {
+    justify-content: left;
+    color: white;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+.section__cant {
+    color: white;
+    margin: 10px auto;
+    max-width: 1000px;
+}
+
+.section__cant > h4 {
+    color: white;
+}
+
+.featured__boxes {
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-around;
+}
