@@ -48,6 +48,7 @@
 }
 
 .topics__boxes {
+    justify-self: center;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -65,7 +66,7 @@
     margin-top: 10px;
     justify-content: center;
     display: flex;
-    width: 420px;
+    width: 50%;
 }
 
 .topics__box > img {
@@ -85,6 +86,8 @@
 }
 .topics__box__text {
     color: white;
+    width: 50%;
+    font-weight: normal;
 }
 
 .academicsColor {

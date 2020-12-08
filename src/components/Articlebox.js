@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 
 function Articlebox({ topic, title, passColor, linkref}) {
     return (
+
         <div style={{ backgroundColor: passColor }} className="articleBox">
             <Link to={linkref}>
            <div className="articleBox__title">

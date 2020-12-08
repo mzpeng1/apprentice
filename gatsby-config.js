@@ -8,7 +8,11 @@ const { FilterNone } = require("@material-ui/icons");
 
 module.exports = {
   /* Your site config here */
+  pathPrefix: "/apprentice",
   plugins: [
     `gatsby-plugin-react-helmet`,
   ],
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
 }

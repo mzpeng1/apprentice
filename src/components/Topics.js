@@ -78,7 +78,8 @@ function Topics() {
                         Learn More
                     </div>
                 </div>
-           </div></div>
+           </div>
+           </div>
 
         </div>
     )

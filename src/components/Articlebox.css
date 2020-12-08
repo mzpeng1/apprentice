@@ -2,6 +2,9 @@
     width: 150px;
     height: 150px;
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
 }
 
 .articleBox > .articleBox__title > h2 {

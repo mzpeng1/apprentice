@@ -13,18 +13,17 @@ var db = [
         { topic: "living", title: "placeholder 5", color: "#696969", link: "/Academics/"},
     ]
 
+
+
 function Featured() {
     const [data, updateData] = useState(db);
-    
+
     const scroll = () => {
-        let newData = data.map((item, index) => {
-            if (index !== data.length-1) {
-                return data[index+1];
-            } else {
-                return data[0];
-            }
-        });
-        updateData(newData);
+        var currData = data;
+        for (var i = 0; i < 4; i++) {
+            currData[i] = currData[i+1];
+        }
+        updateData(currData);
     }
 
     return (
@@ -37,9 +36,8 @@ function Featured() {
                 <ArticleBox topic={data[1].topic} title={data[1].title} passColor={data[1].color} linkref={data[1].link}/>
                 <ArticleBox topic={data[2].topic} title={data[2].title} passColor={data[2].color} linkref={data[2].link}/>
                 <ArticleBox topic={data[3].topic} title={data[3].title} passColor={data[3].color} linkref={data[3].link}/>
-
                 <div className="featured__boxes__arrow">
-                    <IconButton aria-label="next" onClick={ scroll }>
+                    <IconButton aria-label="next" onClick={scroll}>
                         <ArrowForwardIosIcon style={{ color: "white" }} />
                     </IconButton>
                 </div>
