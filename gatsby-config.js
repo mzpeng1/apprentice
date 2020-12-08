@@ -12,7 +12,5 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
   ],
-  "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-  },
+  
 }
