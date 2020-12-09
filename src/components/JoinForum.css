@@ -36,6 +36,7 @@
 
 .joinForum__boxes__left > h4 {
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 ul {
@@ -73,6 +74,10 @@ li {
     padding: 15px;
 }
 
+.joinForum__boxes__right__bot > h4 {
+    font-weight: normal;
+}
+
 .joinForum__boxes__find {
     background-color: white;
     padding: 15px;
@@ -89,4 +94,8 @@ li {
     background-color: white;
     margin-right: 20px;
     padding: 15px;
+}
+
+.joinForum__boxes__what > h4 {
+    font-weight: normal;
 }

@@ -8,6 +8,7 @@ import { actionTypes } from "../context/reducer"
 
 function Login() {
     const [state, dispatch] = useStateValue();
+
     const signIn=()=> {
         auth.signInWithPopup(provider).then( result => {
             dispatch ({
@@ -16,7 +17,6 @@ function Login() {
             });
         }).catch((error) => alert(error.message));
     };
-
     return (
         <Layout>
         <div className="login">

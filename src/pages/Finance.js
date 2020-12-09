@@ -2,8 +2,8 @@ import React from 'react'
 import "./Finance.css"
 import Layout from "../components/layout";
 import ArticleBox from "../components/Articlebox";
-import IconButton from '@material-ui/core/IconButton'
-import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos'
+import IconButton from '@material-ui/core/IconButton';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { Link } from 'gatsby'
 
 function Finance() {
@@ -12,7 +12,7 @@ function Finance() {
             <div className="academics">
             <div className="breakBar"></div>
             <div className="academics__banner">
-                ACADEMICS
+                Finance
             </div>
             <div className="section__text">
                 <h1>featured articles:</h1>

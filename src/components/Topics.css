@@ -53,6 +53,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 40px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .topics__boxes__text {
@@ -64,7 +66,7 @@
 
 .topics__box {
     margin-top: 10px;
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     width: 50%;
 }
@@ -84,9 +86,13 @@
     margin-top: 10px;
     border-radius: 999px;
 }
+
 .topics__box__text {
     color: white;
-    width: 50%;
+    width: 45%;
+}
+
+.topics__box__text > h4 {
     font-weight: normal;
 }
 

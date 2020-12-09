@@ -29,3 +29,8 @@
     color: white;
     text-align: center;
 }
+
+.featured__link > h4 {
+    font-weight: normal;
+    font-style: italic;
+}
